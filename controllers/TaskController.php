@@ -27,7 +27,7 @@ class TaskController extends Controller
         var_dump($task->getErrors());
         var_dump($task);
     }
-//////////////////
+//////////////////////
     public function actionTest()
     {
 //        $model->title = 'Task-tracker';     явная предача данных в модель
