@@ -6,7 +6,7 @@ use yii\web\Controller;
 
 class TaskController extends Controller
 {
-    public $layout = false;         //  можно указать  $layout = 'название';
+    public $layout = true;         //  можно указать  $layout = 'название';
 
     public function actionIndex()
     {
@@ -27,7 +27,7 @@ class TaskController extends Controller
         var_dump($task->getErrors());
         var_dump($task);
     }
-//////////////////
+//////////////////////
     public function actionTest()
     {
 //        $model->title = 'Task-tracker';     явная предача данных в модель
