@@ -6,7 +6,7 @@ use yii\web\Controller;
 
 class TaskController extends Controller
 {
-    public $layout = false;         //  можно указать  $layout = 'название';
+    public $layout = true;         //  можно указать  $layout = 'название';
 
     public function actionIndex()
     {
