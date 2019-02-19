@@ -2,6 +2,7 @@
 namespace app\controllers;
 use app\models\Project;
 use app\models\Task;
+use app\models\TaskTest;
 use yii\web\Controller;
 
 class TaskController extends Controller
@@ -13,9 +14,9 @@ class TaskController extends Controller
         echo "index"; exit;
     }
 
-    public function actionTask()
+    public function actionTaskTest()
     {
-        $task = new Task();
+        $task = new TaskTest();
 
         $task->setAttributes([
             'perform' => 'Diana',

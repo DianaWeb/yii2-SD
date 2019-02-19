@@ -31,7 +31,7 @@ class Project extends Model
         ];
     }
 
-    public function myValidate($attribute, $params)
+    public function myValidate($attribute, $params)     //метод валидации для атрибута в текущей модели
     {
         if ($this->$attribute < 10) {
             var_dump($this->$attribute);      //9
