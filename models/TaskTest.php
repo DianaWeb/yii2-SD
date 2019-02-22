@@ -6,7 +6,7 @@ namespace app\models;
 use app\validators\FirstValidator;
 use yii\base\Model;
 
-class Task extends Model
+class TaskTest extends Model
 {
     public $perform;
     public $description;
